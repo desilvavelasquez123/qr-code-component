@@ -27,10 +27,10 @@ Used Google Gemini for GPT assistance for centering the `main` container to the 
 
 ## Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/qr-code-component-built-with-html-and-css-using-flexbox-85cLqrF-Vw)
+- Live Site URL: [DeSi's QR Code Component](https://desilvavelasquez123.github.io/qr-code-component/)
 
-[**Github repository**](#)
+[**Github repository**](https://github.com/desilvavelasquez123/qr-code-component)
 
 ## My process
 
@@ -81,4 +81,4 @@ Big thanks to ... for encouraging me to submit this challenge and suggest to rev
 
 ## Author
 
-- Website (GH Pages) - [DeSi's QR Code Component](#)
+- Website (GH Pages) - [DeSi's QR Code Component](https://desilvavelasquez123.github.io/qr-code-component/)
