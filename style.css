@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+:root {
+  --color-main-background: hsl(0, 0%, 100%);
+  --color-slate-300: hsl(212, 45%, 89%);
+  --color-slate-500: hsl(216, 15%, 48%);
+  --color-slate-900: hsl(218, 44%, 22%);
+  --border-edge: 1rem;
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  font: inherit;
+  line-height: inherit;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+body {
+  background-color: var(--color-slate-300);
+  width: fit-content;
+  max-width: 1444px;
+  min-width: 375px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh; /* ensures parent container's children are centered on all screens and devices
+     by taking 90% of the viewport (originally made by Gemini via Google SRE at suggested 100%, but I decreased it to 90vh to push the `main` container up a bit) */
+}
+
+main {
+  display: inherit;
+  flex-flow: column;
+  padding: 2.5rem 1rem 2rem;
+  background-color: var(--color-main-background);
+  gap: 0.5rem;
+}
+
+main,
+img {
+  border-radius: var(--border-edge);
+  width: 70%;
+  max-width: fit-content;
+  height: auto;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+h1,
+h2 {
+  color: var(--color-slate-900);
+}
+
+.attribution {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.attribution a {
+  color: hsl(228, 100%, 18%);
+}
